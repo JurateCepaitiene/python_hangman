@@ -1,0 +1,11 @@
+readme
+requirements
+vartotojai - registracija vardas; be email; pw=kriksto vardas
+input1 - visos didziosios raides ekrane on click - raides isvedineti divuose po viena raide;
+input2 - sarasas zodziu (minus panaudoti zodziai)
+input3 - dienos
+zodziai - >24
+24-a diena summary
+
+open?
+db: viena; table: 3-4

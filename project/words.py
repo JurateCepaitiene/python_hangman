@@ -1,0 +1,1 @@
+SECRET_WORDS = 'dziaugsmas sniegas seima darbas katinas sypsena kaledos dovana giesme knyga vakaras vaikas ramybe meile siluma maistas tradicija zvaigzde mama kelione juokas muzika tetis aciu'.split() 
