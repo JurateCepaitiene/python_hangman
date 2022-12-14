@@ -34,6 +34,6 @@ $ python logic.py
 
 - Allows guesses with letters only
 - Both upper and lower-case letters accepted
-- Traditional hangman figure displayed in terminal, changeing with the player's move
-- Indicates player's missed guesses in seperate line
-- Displayes the secret word if the player lost
+- Traditional hangman figure displayed in terminal, changeng with the player's move
+- Indicates player's missed guesses in separate line
+- Displays the secret word if the player lost
