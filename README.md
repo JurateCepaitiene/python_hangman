@@ -2,7 +2,7 @@
 
 Hangman is a popular word guessing game where the player attempts to guess a word by suggesting letters. The game is won if the player successfully guesses the word with less then 10 missed attempts, otherwise looses.
 
-https://github.com/JurateCepaitiene/python_hangman/blob/main/screenshot.png
+![](https://github.com/JurateCepaitiene/python_hangman/blob/main/screenshot.png)
 
 ## Installation
 
