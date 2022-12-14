@@ -2,6 +2,8 @@
 
 Hangman is a popular word guessing game where the player attempts to guess a word by suggesting letters. The game is won if the player successfully guesses the word with less then 10 missed attempts, otherwise looses.
 
+https://github.com/JurateCepaitiene/python_hangman/blob/main/screenshot.png
+
 ## Installation
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Python](https://www.python.org/downloads/) installed on your computer.
@@ -27,8 +29,6 @@ From here you shall open nerminal and run the game by typing:
 ```bash
 $ python logic.py
 ```
-
-image.png
 
 ## Features
 
