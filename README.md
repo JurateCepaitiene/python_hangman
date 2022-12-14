@@ -10,7 +10,7 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/GustasGrieze/hangman
+$ git clone https://github.com/JurateCepaitiene/python_hangman.git
 ```
 
 You'll need to have the required extensions.
@@ -20,37 +20,17 @@ You'll need to have the required extensions.
 $ pip install -r requirements.txt
 ```
 
-Otherwise, you could opt to creating a virtual environment to store the extensions.
-
-```bash
-# Install the virtualenv package
-$ pip install virtualenv
-
-# Create your virtual environment
-$ python -m venv venv
-
-# Activate it
-$ source venv/Scripts/activate
-
-# Finally install the extensions
-$ pip install -r requirements.txt
-```
-
 ## How To Use
 
 From here you can run it by typing:
 
 ```bash
-$ python run.py
+$ python logic.py
 ```
-
-Go to your browser and enter the URL **localhost:8000**
 
 ## Features
 
-- Ability to register and log in
-- Change your name and profile picture
-- Simple art representation of the hangman figure
-- Keeps track of the player's remaining guesses
-- Supports words with letters only
-- Player stats and game history
+- Allows guesses with letters only
+- Traditional hangman figure displayed in terminal, changeing with the player move
+- Indicates player's missed guesses in seperate line
+- Displayes the secret word if the player lost
