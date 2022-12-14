@@ -6,10 +6,10 @@ def get_random_word(SECRET_WORDS: list) -> str:
     list_index = random.randint(0, len(SECRET_WORDS) - 1)
     return SECRET_WORDS[list_index]
 
-def display_board(missed_letters: str, correct_letters: str, secret_word: str) ->list:
+def display_board(missed_letters: str, correct_letters: str, secret_word: str) ->None:
     print(HANGMAN_PICS[len(missed_letters)])
     print()
-    print('Missed letters:', end=' ')
+    print('Missed letters:')
     for letter in missed_letters:
         print(letter, end=' ')
     print()
@@ -22,14 +22,14 @@ def display_board(missed_letters: str, correct_letters: str, secret_word: str) -
         print(symbol, end=' ')
     print()
 
-def get_guess(allready_guessed) ->str:
+def get_guess(already_guessed: str) ->str:
     while True:
         print('Guess a letter.')
         guess = input()
         guess = guess.lower()
         if len(guess) != 1:
             print('Please enter a single letter.')
-        elif guess in allready_guessed:
+        elif guess in already_guessed:
             print('You have already guessed that letter. Choose again.')
         elif guess not in 'abcdefghijklmnopqrstuvwxyz':
             print('Please enter a LETTER.')
@@ -56,6 +56,7 @@ if __name__=="__main__":
             found_all_letters = True
         else:
             missed_letters = missed_letters + guess
+
         for index in range(len(secret_word)):
             if secret_word[index] not in correct_letters:
                 found_all_letters = False
