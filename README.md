@@ -1,6 +1,6 @@
-# Hangman
+# Python Hangman
 
-Hangman is a popular word guessing game where the player attempts to guess a word or phrase by suggesting letters or numbers. The game is won if the player successfully guesses the word, and is lost if they run out of guesses.
+Hangman is a popular word guessing game where the player attempts to guess a word by suggesting letters. The game is won if the player successfully guesses the word with less then 10 missed attempts, otherwise looses.
 
 ## Installation
 
@@ -20,17 +20,20 @@ You'll need to have the required extensions.
 $ pip install -r requirements.txt
 ```
 
-## How To Use
+## How To Play
 
-From here you can run it by typing:
+From here you shall open nerminal and run the game by typing:
 
 ```bash
 $ python logic.py
 ```
 
+image.png
+
 ## Features
 
 - Allows guesses with letters only
-- Traditional hangman figure displayed in terminal, changeing with the player move
+- Both upper and lower-case letters accepted
+- Traditional hangman figure displayed in terminal, changeing with the player's move
 - Indicates player's missed guesses in seperate line
 - Displayes the secret word if the player lost
